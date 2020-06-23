@@ -1,0 +1,58 @@
+@import './palette.scss';
+
+p,
+strong,
+h3,
+h2,
+h1,
+ul {
+	margin: 0px;
+	font-size: inherit;
+}
+
+p,
+a,
+ul,
+li,
+span,
+div,
+input,
+textarea,
+::placeholder {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+h1 {
+	font-size: 38px;
+	letter-spacing: -0.24px;
+	line-height: 36px;
+	font-family: 'Montserrat';
+}
+
+h2 {
+	font-size: 34px;
+	letter-spacing: -0.24px;
+	line-height: 32px;
+	font-family: 'Montserrat';
+}
+
+label {
+	font-size: 18px;
+	letter-spacing: -0.24px;
+	line-height: 45px;
+	font-family: 'Montserrat';
+}
+
+button {
+	font-size: 18px;
+	letter-spacing: -0.05px;
+	font-family: 'Montserrat';
+}
+
+.divider {
+	border-top: 1px solid $secondary_0_1;
+	width: 100%;
+	margin: 30px 0;
+}
